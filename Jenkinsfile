@@ -45,7 +45,6 @@ pipeline {
 
                     }
               }*/
-
         stage('Clean the Script') {
             steps {
             bat 'mvn clean'
