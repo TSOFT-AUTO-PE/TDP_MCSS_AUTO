@@ -28,7 +28,7 @@ pipeline {
 
                           }
                     }
-         stage('Run Static Analysis with SonarQ') {
+         /*stage('Run Static Analysis with SonarQ') {
                     steps {
                     script{
                         withSonarQubeEnv('sonarserver') {
@@ -44,7 +44,7 @@ pipeline {
                     }
 
                     }
-              }
+              }*/
 
         stage('Clean the Script') {
             steps {
