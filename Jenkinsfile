@@ -19,7 +19,7 @@ pipeline {
        stage('Versioning') {
          steps {
             // Get some code from a GitHub repository
-            git 'https://github.com/TDP-Automation/TDP_MCSS.git'
+            git 'https://github.com/TSOFT-AUTO-PE/TDP_MCSS_AUTO.git'
             }
         }
               stage('Update DATA') {
