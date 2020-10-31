@@ -19,7 +19,7 @@ import org.sikuli.script.Screen;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import static com.tsoft.bot.frontend.BaseClass.stepFailNoShoot;
+import static com.tsoft.bot.frontend.Base.BaseClass.stepFailNoShoot;
 
 public class Hook extends Listener {
 
